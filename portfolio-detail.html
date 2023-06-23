@@ -8,14 +8,10 @@
 	<!-- CSS FILE -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">	
 
 	<!-- Bootstrap Icon -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-	
-	
-	<!-- JS FILE -->
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 	<!-- Carousel -->
 	<link rel="stylesheet" href="carousel/css/owl.carousel.min.css">
@@ -24,16 +20,20 @@
 	<link rel="stylesheet" href="carousel/css/animate.css">
 	<link rel="stylesheet" href="carousel/css/style.css">
 
-	
+	<!-- Animation -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
 
-<!-- jQuery library -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+	<!-- jQuery library -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<!-- Typing -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
-
-	</head>
+	<!-- JS FILE -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
 </head>
 <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
 	<div>
@@ -47,9 +47,9 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="menu">
-					<li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="/portfolio-detail.html" style="color: #F15D2A !important;">Portfolio</a></li>
-					<li class="nav-item"><a class="nav-link" href="/resume.html">Resume</a></li>
+					<li data-aos="fade-right" class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+					<li data-aos="fade-up" class="nav-item"><a class="nav-link" href="/portfolio-detail.html" style="color: #F15D2A !important;">Portfolio</a></li>
+					<li data-aos="fade-left" class="nav-item"><a class="nav-link" href="/resume.html">Resume</a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,12 +60,12 @@
 	<section class="site-section" id="section-portfolio">
 		<div class="container">
 			<div class="row">
-				<div class="section-heading text-center col-md-12">
+				<div data-aos="fade-up" class="section-heading text-center col-md-12">
 					<h2>Featured <strong>Portfolio</strong></h2>
 				</div>
 			</div>
 				<div class="filters">
-					<ul>
+					<ul data-aos="fade-up" data-aos-delay="150">
 						<li class="active" data-filter="*">All</li>
 						<li data-filter=".visual-identity">Visual Identity</li>
 						<li data-filter=".advertising">Advertising</li>
@@ -449,6 +449,20 @@
 								<div class="cat">Packaging</div>
 							</div>
 						</div>
+						<div class="single-portfolio col-sm-4 all publication">
+							<div class="relative">
+								<div class="thumb portfolio-item">
+									<div class="overlay overlay-bg"></div>
+									<a class="portfolio-link" data-bs-toggle="modal" href="#publication11">
+										<img class="img-fluid" src="images/publication/phoxinh-printad/00.jpg" alt="..." />
+									</a>
+								</div>
+							</div>
+							<div class="p-inner">
+								<h4>Creative Package Design</h4>
+								<div class="cat">Packaging</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -457,7 +471,6 @@
 	
 
 	<!-- Portfolio Modals-->
-
 	<!-- Visual Identity -->
 	<!-- Portfolio item 1 modal popup-->
 	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -2598,7 +2611,7 @@
 		</div>
 	</div>
 
-
+	<!-- Back to top -->
 	<a href="#" id="progress" class="back-to-top d-flex align-items-center justify-content-center"><i
 		id="progress-value"></i></a>
 
@@ -2619,6 +2632,7 @@
 	<script src="carousel/js/bootstrap.min.js"></script>
 	<script src="carousel/js/owl.carousel.min.js"></script>
 	<script src="carousel/js/main.js"></script>
+
 	
 
 	<!-- Bar Scroll -->
@@ -2632,4 +2646,5 @@
 
 <!-- Template Main JS File -->
 <script src="js/main.js"></script>
+
 

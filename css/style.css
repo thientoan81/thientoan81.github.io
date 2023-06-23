@@ -805,12 +805,18 @@ a:focus
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
 }
+.animation-left {
+    animation: fadeInLeft 0.75s;
+}
+.animation-right {
+    animation: fadeInRight 0.75s;
+}
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content img {
-  /* margin-bottom: 2rem; */
-}
+/* .portfolio-modal .modal-content img {
+  margin-bottom: 2rem;
+} */
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;

@@ -18,10 +18,16 @@ function sendMail(){
             document.getElementById("email").value = "";
             document.getElementById("message").value = "";
             document.getElementById("phone").value = "";
-            console.log(res);
-            alert("Your messgae sen successfully!");
+            alert("Your message sent successfully!");
         })
         .catch(console.log("Send Failed!"));
+}
+
+function reset() {
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+    document.getElementById("phone").value = "";
 }
 
 

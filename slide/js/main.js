@@ -28,7 +28,7 @@
         'Social Post',
         'Publication',
         'Packaging',
-        'Artworks'        
+        'Clothing Design'        
     ];
 
     var msTitles = new MomentumSlider({

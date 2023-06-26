@@ -166,27 +166,27 @@ a.navbar-brand span.fa {
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-  background-image: url("../images/01.jpg");
+  background-image: url("../images/");
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-  background-image: url("../images/02.jpg");
+  background-image: url("../images/avatar/02.jpg");
 }
 
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-  background-image: url("../images/03.jpg");
+  background-image: url("../images/avatar/03.jpg");
 }
 
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-  background-image: url("../images/04.jpg");
+  background-image: url("../images/avatar/04.jpg");
 }
 
 .ms--images .ms-slide:nth-child(5) .ms-slide__image {
-  background-image: url("../images/05.jpg");
+  background-image: url("../images/avatar/05.jpg");
 }
 
 .ms--images .ms-slide:nth-child(6) .ms-slide__image {
-  background-image: url("../images/06.jpg");
+  background-image: url("../images/avatar/06.jpg");
 }
 
 .ms--images .ms-slide__image-container {

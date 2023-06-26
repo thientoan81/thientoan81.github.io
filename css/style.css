@@ -621,6 +621,9 @@ a:focus
 .site-form .form-control {
 	border: 1px solid #b3bdc6;
 }
+.site-form .form-control:focus {
+	border: 1px solid #F15D2A !important;
+}
 
 .site-contact-details,
 .site-contact-details li {
